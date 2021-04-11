@@ -15,7 +15,7 @@
       </div>
     </div>
     <!-- TradingView Widget BEGIN -->
-<div class="tradingview-widget-container">
+<div class="tradingview-widget-container" id="light">
   <div class="tradingview-widget-container__widget"></div>
   <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com" rel="noopener" target="_blank"><span class="blue-text">Stocks</span></a> <span class="blue-text">and</span> <a href="https://www.tradingview.com" rel="noopener" target="_blank"><span class="blue-text">ETFs</span></a> by TradingView</div>
   <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
@@ -130,6 +130,128 @@
   ],
   "showSymbolLogo": true,
   "colorTheme": "light",
+  "isTransparent": true,
+  "locale": "en"
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
+    <!-- TradingView Widget BEGIN -->
+    <div class="tradingview-widget-container" id="dark">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com" rel="noopener" target="_blank"><span class="blue-text">Stocks</span></a> <span class="blue-text">and</span> <a href="https://www.tradingview.com" rel="noopener" target="_blank"><span class="blue-text">ETFs</span></a> by TradingView</div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
+  {
+  "width": 770,
+  "height": 450,
+  "symbolsGroups": [
+    {
+      "name": "Indices",
+      "originalName": "Indices",
+      "symbols": [
+        {
+          "name": "FOREXCOM:SPXUSD",
+          "displayName": "S&P 500"
+        },
+        {
+          "name": "FOREXCOM:NSXUSD",
+          "displayName": "Nasdaq 100"
+        },
+        {
+          "name": "FOREXCOM:DJI",
+          "displayName": "Dow 30"
+        },
+        {
+          "name": "INDEX:NKY",
+          "displayName": "Nikkei 225"
+        },
+        {
+          "name": "INDEX:DEU30",
+          "displayName": "DAX Index"
+        },
+        {
+          "name": "FOREXCOM:UKXGBP",
+          "displayName": "FTSE 100"
+        }
+      ]
+    },
+    {
+      "name": "Stocks",
+      "symbols": [
+        {
+          "name": "NASDAQ:AMD",
+          "displayName": "Advanced Micro Devices"
+        },
+        {
+          "name": "NASDAQ:NVDA",
+          "displayName": "NVDA"
+        },
+        {
+          "name": "NASDAQ:NNDM"
+        },
+        {
+          "name": "NYSE:NOK"
+        },
+        {
+          "name": "NASDAQ:TIGR"
+        },
+        {
+          "name": "NYSE:U"
+        },
+        {
+          "name": "NYSE:TSM"
+        },
+        {
+          "name": "NYSE:PLTR"
+        },
+        {
+          "name": "NYSE:LMND"
+        },
+        {
+          "name": "NYSE:LMT"
+        },
+        {
+          "name": "NASDAQ:WKHS"
+        },
+        {
+          "name": "NASDAQ:AMZN"
+        },
+        {
+          "name": "NASDAQ:AAPL"
+        },
+        {
+          "name": "NASDAQ:TSLA"
+        }
+      ]
+    },
+    {
+      "name": "ETFs",
+      "symbols": [
+        {
+          "name": "NASDAQ:SOXX",
+          "displayName": "iShares PHLX Semiconductor ETF"
+        },
+        {
+          "name": "AMEX:VOO",
+          "displayName": "Vanguard S&P 500 ETF"
+        },
+        {
+          "name": "AMEX:ARKK",
+          "displayName": "Ark Innovation ETF"
+        },
+        {
+          "name": "NASDAQ:QQQ",
+          "displayName": "Unit Trusts"
+        }
+      ]
+    },
+    {
+      "name": "SG",
+      "symbols": []
+    }
+  ],
+  "showSymbolLogo": true,
+  "colorTheme": "dark",
   "isTransparent": true,
   "locale": "en"
 }
